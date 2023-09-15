@@ -1,17 +1,6 @@
 How to solve "Error: MySQL shutdown unexpectedly"?
 When I open XAMPP and click start MySQL button and it gives me an error. I had started it just before, but now it isn't working.
 
-12:19:12 PM [mysql] Attempting to start MySQL app...
-12:19:12 PM [mysql] Status change detected: running
-12:19:13 PM [mysql] Status change detected: stopped
-12:19:13 PM [mysql] Error: MySQL shutdown unexpectedly.
-12:19:13 PM [mysql] This may be due to a blocked port, missing dependencies,
-12:19:13 PM [mysql] improper privileges, a crash, or a shutdown by another method
-12:19:13 PM [mysql] Press the Logs button to view error logs and check
-12:19:13 PM [mysql] the Windows Event Viewer for more clues
-12:19:13 PM [mysql] If you need more help, copy and post this
-12:19:13 PM [mysql] entire log window on the forums
-
 #IMPORTANT: do NOT delete ibdata1 file. You could destroy all your databases.
 
 #Instead, first try using the MySQL backup folder which is included with XAMPP. So do next steps:
